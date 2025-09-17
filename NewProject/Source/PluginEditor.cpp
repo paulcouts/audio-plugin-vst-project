@@ -85,7 +85,7 @@ void SpectralEQAudioProcessorEditor::paint (juce::Graphics& g)
     juce::Path freqPath;
     freqPath.startNewSubPath (scopeRect.getX(), scopeRect.getBottom());
 
-    // We'll plot the magnitude data from 0..fftSize/2
+    // plot the magnitude data from 0..fftSize/2
     const auto halfSize = SpectralEQAudioProcessor::fftSize / 2;
 
     for (size_t i = 1; i < halfSize; ++i)
@@ -110,7 +110,7 @@ void SpectralEQAudioProcessorEditor::resized()
     auto area = getLocalBounds().reduced (10);
     auto sliderArea = area.removeFromTop (140);
 
-    // We'll place 3 columns, each column for one band
+    //n3 columns, each column for one band
     // Each column has 3 sliders: freq, gain, Q
     const int columnWidth = sliderArea.getWidth() / 3;
 
