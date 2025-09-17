@@ -73,5 +73,5 @@ Build using Visual Studio, Xcode, or your tool of choice.
 
 The resulting .vst3 will appear under Builds/VisualStudio2022/x64/Release/VST3 (or similar).
 
-Enjoy using NewProject!
+Enjoy using this project!
 Feel free to fork, modify the DSP, or enhance the UI. Contributions or bug reports are welcome. Have fun shaping your sound with the 3-band parametric EQ and seeing real-time frequency data in the spectrogram!
